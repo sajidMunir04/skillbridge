@@ -1,0 +1,90 @@
+
+
+.container{
+    width: 42.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3% 3%;
+    height: 28%;
+}
+
+.graphicSection{
+    width: 100%;
+    height: 51%;
+}
+
+.graphicSectionImage{
+    width: 100%;
+    height: auto;
+}
+
+.textSection{
+    margin-top: 3%;
+    height: 40%;
+}
+
+.subTextSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subTextLeftContainer{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    padding-left: 4%;
+}
+
+.leftText{
+    color: #4C4C4D;
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 14px;
+    font-weight: 78;
+}
+
+.rightText{
+    color: #262626;
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 18px;
+    font-weight: 137;
+}
+
+.subTextRightContainer{
+
+}
+
+.contentContainer{
+
+}
+
+.externalLink{
+    text-align: center;
+    width: 100%;
+    height: 8%;
+    align-self: flex-end;
+    align-content: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F8;
+}
+
+.link{
+    text-decoration: none;
+    color: #262626;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Be-Vietnam-Pro-Medium;
+    font-weight: 94;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 92%;
+        height: 500px;
+    }
+}

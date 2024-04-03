@@ -1,0 +1,22 @@
+.link {
+    display: inline-block;
+    font-family: Be-Vietnam-Pro-Regular;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 111;
+    width: 46%;
+    height: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5% 5%;
+    overflow: hidden;
+    border-radius: 5px 5px;
+}
+
+.whiteBackground{
+    background-color: white;
+}
+
+.grayBackground{
+    background-color: #F7F7F8;
+}

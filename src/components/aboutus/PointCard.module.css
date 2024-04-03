@@ -1,0 +1,41 @@
+.container{
+    width: 48.4%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2% 6%;
+}
+
+.imageSection{
+    height: 20%;
+}
+
+.imageContainer{
+    width: 10%;
+    height: 100%;
+    background-color: #FFF9F0;
+    border: 1px solid #FFEACC;
+    display: flex;
+
+}
+
+.image{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.textSection {
+
+}
+
+.headingText{
+
+}
+
+.text{
+
+}

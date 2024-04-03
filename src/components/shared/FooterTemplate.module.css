@@ -1,0 +1,90 @@
+
+.container{
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    padding: 0% 8%;
+    background-color: white;
+    height: 400px;
+    align-items: center;
+}
+
+.brandInfoSection{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeLinksSection{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 54%;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactInfoImage{
+
+}
+
+.contactInfoText{
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 16px;
+    font-weight: 195;
+    color: #262626;
+}
+
+.brandLogo{
+
+}
+
+.sectionHeading{
+    font-family: Be-Vietnam-Pro-SemiBold;
+    font-weight: 249;
+    font-size: 16px;
+    color: #262626;
+}
+
+.aboutusLinkSection{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 54%;
+}
+
+.socialProfilesSection{
+    height: 54%;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 8%;
+    color: #59595A;
+    text-decoration: none;
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 16px;
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 38%;
+}
+
+
+@media screen and (max-width: 700px){
+    .container{
+        flex-direction: column;
+        height: 800px;
+        justify-content: space-around;
+        flex-grow: 100%;
+    }
+}

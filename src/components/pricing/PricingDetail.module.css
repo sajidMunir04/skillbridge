@@ -1,0 +1,96 @@
+
+
+.container{
+    background-color: #f8f8fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    margin-inline: 1%;
+    box-sizing: border-box;
+    padding: 2% 2%;
+    border-radius: 2px solid #F1F1F3;
+    height: 90%;
+}
+
+.categoryText{
+
+}
+
+.priceText{
+
+}
+
+.priceHighlighted{
+    font-family: Be-Vietnam-Pro-SemiBold;
+    font-size: 80px;
+    font-weight: 109;
+    color: #262626;
+}
+
+.detailsContainer{
+
+}
+
+.featureHeadingText{
+    text-align: center;
+    font-family: Be-Vietnam-Pro-Medium;
+    font-size: 20px;
+    font-weight: 563;
+}
+
+.features{
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 14px;
+    font-weight: 284;
+    list-style:square;
+}
+
+.externalLink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.planCategory{
+    width: 100%;
+    font-family: Be-Vietnam-Pro-Medium;
+    color: #262626;
+    font-size: 22px;
+    background-color: #FFF9F0;
+    border: 1px solid #FFEACC;
+    text-align: center;
+    height: 10%;
+}
+
+.planPrice{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family: Be-Vietnam-Pro-Medium;
+    color: #4C4C4D;
+    font-size: 20px;
+}
+
+.link{
+    font-family: Be-Vietnam-Pro-SemiBold;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 268;
+    background-color: #FF9500;
+    width: 100%;
+    height: 90%;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        height: 800px;
+    }
+}

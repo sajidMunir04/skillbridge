@@ -1,0 +1,38 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.container{
+    width: 84%;
+    padding: 0% 8%;
+    height: 900px;
+}
+
+.containerDetails{
+    display: flex;
+    align-items: center;
+}
+
+.containerHeader{
+    width: 100%;
+    height: 20%;
+}
+
+
+@media screen and (max-width: 700px){
+    .container{
+        padding: 0% 4%;
+        width: 92%;
+        height: 1600px; 
+    }
+
+    .content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

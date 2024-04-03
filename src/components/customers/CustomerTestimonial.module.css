@@ -1,0 +1,66 @@
+
+.container{
+    width: 48.6%;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 3% 3% 2% 3%;
+    border-radius: 14px 14px;
+    justify-content: space-between;
+}
+
+.authorDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;    
+    align-items: center;
+}
+
+.authorProfile{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.authorImage{
+    width: 100%;
+    height: auto;
+}
+
+.authorImageContainer{
+    width: 30%;
+}
+
+.authorName{
+    margin-left: 8%;    
+    font-family: Be-Vietnam-Pro-SemiBold;
+    color: #333333;
+    font-size: 16px;
+}
+
+.textContent{
+    font-family: Be-Vietnam-Pro-Regular;
+    color: #4C4C4D;
+    font-size: 16px;
+}
+
+.authorProfileLink{
+    width: 70%;
+    height: 66%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 100%;
+        height: 260px;  
+    }
+}
+

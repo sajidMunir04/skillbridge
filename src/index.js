@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Home from './components/pages/Home';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
+import Courses from './components/pages/Courses';
+import PageHeadingTemplate from './components/shared/PageHeadingTemplate';
+import AboutUs from './components/pages/AboutUs';
+import Pricing from './components/pages/Pricing';
+import Contact from './components/pages/Contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,69 @@
+
+.container{
+    padding: 4% 0%;
+    width: 100%;
+    /*height: calc(max-content + 50px);*/
+}
+
+.subContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+
+.questionContainer{
+    font-family: Be-Vietnam-Pro-Medium;
+    font-size: 16px;
+    font-weight: 685;
+    height: 80px;
+}
+
+.answerContainer{
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 14px;
+    font-weight: 767;
+    color: #4C4C4D;
+    width: 100%;
+    height: 100px;
+}
+
+.controlButtons{
+    display: grid;
+}
+
+.answerOpenButton{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.answerCloseButton{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.link {
+    text-decoration: none;
+    color: #333333;
+    font-family: Be-Vietnam-Pro-Medium;
+    font-size: 16px;
+    font-weight: 651;
+}
+
+.arrowContainer{
+    border-radius: 50px 50px;
+    background-color: white;
+    width: 7%;
+    height: 80%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.externalLink{
+    width: 100%;
+    height: 50%;
+    background-color: #F7F7F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2%;
+}

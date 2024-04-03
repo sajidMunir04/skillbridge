@@ -1,0 +1,134 @@
+@import url(../fonts.css);
+
+.container{
+    background-color: white;
+    width: 84%;
+    margin: auto;
+    height: 700px;
+    box-sizing: border-box;
+    padding: 4% 4%;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputFieldContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 44%;
+}
+
+.inputLabel {
+    font-family: Be-Vietnam-Pro-Medium;
+    font-size: 16px;
+    color: #262626;
+}
+
+.input{
+    margin-top: 4%;
+    font-family: Be-Vietnam-Pro-Medium;
+    height: 30%;
+    border: none;
+    background-color: #F7F7F8;
+    border: 2px solid #F1F1F3;
+}
+
+.subjectSectionInput{
+    margin-top: 1%;
+    height: 50%;
+}
+
+.formContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFieldsSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+}
+
+.messageSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 30%;
+}
+
+.messageSectionInput{
+    margin-top: 3%;
+    height: 70%;
+}
+
+.contactInfoContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 22%;
+    background-color: #FCFCFD;
+    border:  2px solid #F1F1F3;
+}
+
+.contactInfoImageContainer{
+
+}
+
+.contactInfoImage{
+
+}
+
+.contactInfoText{
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 16px;
+    color: #4C4C4D;
+}
+
+.contactInfoTextContainer{
+    
+}
+
+.subjectSection{
+    display: flex;
+    flex-direction: column;
+    height: 12%;
+}
+
+.buttonSection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton{
+    display: inline-block;
+    border: none;
+    background-color: #FF9500;
+    font-family: Be-Vietnam-Pro-SemiBold;
+    color: white;
+    font-size: 16px;
+    font-weight: 111;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px 5px;
+}

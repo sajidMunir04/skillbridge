@@ -1,0 +1,26 @@
+
+
+.containerDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.externalLinkContainer{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.textDetails{
+    width: 90%;
+}
+
+@media screen and (max-width: 700px){
+    .containerDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+}
