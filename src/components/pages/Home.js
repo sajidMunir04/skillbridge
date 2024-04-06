@@ -20,8 +20,8 @@ function Home() {
       <VideoIntroduction/>
       <BenefitsTemplate/>
       <CoursesTemplate/>
-      <PricingTemplate/>
       <TestimonialsTemplate/>
+      <PricingTemplate/>
       <FAQTemplate/>
       <FooterSection/>
     </>

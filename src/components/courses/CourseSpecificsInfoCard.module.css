@@ -61,6 +61,23 @@
 @media screen and (max-width: 700px){
     .container{
         width: 92%;
-        height: 500px;
+        height: 10%;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .subTextLeftContainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .leftText{
+        margin-left: 4%;
+    }
+
+    .subTextRightContainer{
+        width: 100%;
     }
 }

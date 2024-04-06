@@ -9,7 +9,8 @@ function CourseCard(props)
 {
     return(<div className={styles.container}>
         <div>
-            <LayoutHeader heading="Web Design Fundamentals" description="Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. 
+            <DetailHeading heading="Web Design Fundamentals"/>
+            <LayoutHeader  description="Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. 
             Develop the skills to create visually appealing and user-friendly websites." buttonText="View More"/>
         </div>
         <div className={styles.imagesContainer}>
@@ -32,19 +33,19 @@ function CourseCard(props)
             </div>
             <div className={styles.infoPointsContainer}>  
                 <div className={styles.infoPoint}>
-                    <CourseTimelineInfoPoint/>
+                    <CourseTimelineInfoPoint indexNumber="01" infoContent="Introduction to HTML"/>
                 </div> 
                 <div className={styles.infoPoint}>
-                    <CourseTimelineInfoPoint/>
+                    <CourseTimelineInfoPoint indexNumber="02" infoContent="Styling with CSS"/>
                 </div>  
                 <div className={styles.infoPoint}>
-                    <CourseTimelineInfoPoint/>
+                    <CourseTimelineInfoPoint indexNumber="03" infoContent="Introduction to Responsive Design"/>
                 </div>  
                 <div className={styles.infoPoint}>
-                    <CourseTimelineInfoPoint/>
+                    <CourseTimelineInfoPoint indexNumber="04" infoContent="Design principles for Web"/>
                 </div>  
                 <div className={styles.infoPoint}>
-                    <CourseTimelineInfoPoint/>
+                    <CourseTimelineInfoPoint indexNumber="05" infoContent="Building a basic Website"/>
                 </div>  
                             
             </div>

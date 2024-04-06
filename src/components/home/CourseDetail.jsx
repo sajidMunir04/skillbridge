@@ -17,7 +17,7 @@ function CourseDetail(props)
                     <p className={styles.leftText}>{props.courseSkillLevel}</p>
                 </div>
                 <div className={styles.subTextRightContainer}>
-                    <p className={styles.rightText}>{props.courseInstructor}</p>
+                    <p className={styles.rightText}>By {props.courseInstructor}</p>
                 </div>
             </div>
             <div className={styles.contentContainer}>

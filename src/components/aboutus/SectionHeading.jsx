@@ -1,12 +1,12 @@
 import styles from './SectionHeading.module.css';
 
 
-function SectionHeading()
+function SectionHeading(props)
 {
     return(<div className={styles.container}>
-        <h2 className={styles.heading}>Achievements</h2>
-        <p className={styles.description}>Our commitment to excellence has led us to achieve significant milestones 
-        along our journey. Here are some of our notable achievements</p>
+        <h2 className={styles.heading}>{props.heading}</h2>
+        <p className={styles.description}>{props.text}</p>
+        <p className={styles.description}>{props.textTwo}</p>
     </div>);
 }
 

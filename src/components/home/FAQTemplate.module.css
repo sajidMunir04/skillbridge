@@ -26,5 +26,17 @@
 @media screen and (max-width: 700px){
     .container{
         flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 4%;
+        height: max-content;
+    }
+
+    .containerLeft{
+        width: 100%;
+    }
+    
+    .containerRight{
+        width: 100%;
+        margin-top: 10%;
     }
 }

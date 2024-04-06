@@ -23,4 +23,10 @@
         align-items: start;
         justify-content: start;
     }
+
+    .externalLinkContainer{
+        width: 70%;
+        display: flex;
+        justify-content: start;
+    }
 }

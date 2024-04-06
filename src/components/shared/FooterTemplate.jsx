@@ -43,9 +43,11 @@ function FooterSection(){
         </div>
         <div className={styles.socialProfilesSection}>
             <p className={styles.sectionHeading}>Social Profiles</p>
+            <div className={styles.socialLinksContainer}>
             <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(4).png'}/></a>
             <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(6).png'}/></a>
             <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(7).png'}/></a>
+            </div>
         </div>
     </div>);
 }

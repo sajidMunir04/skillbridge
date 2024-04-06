@@ -1,11 +1,11 @@
 import styles from './CourseTimelineInfoPoint.module.css';
 
-function CourseTimelineInfoPoint()
+function CourseTimelineInfoPoint(props)
 {
     return(<div className={styles.container}>
-        <h2 className={styles.headingText}>01</h2>
+        <h2 className={styles.headingText}>{props.indexNumber}</h2>
         <div className={styles.textContainer}>
-            <p className={styles.text}>Introduction to HTML</p>
+            <p className={styles.text}>{props.infoContent}</p>
         </div>       
     </div>);
 }

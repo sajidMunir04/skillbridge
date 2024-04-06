@@ -36,7 +36,7 @@ function PricingTemplate()
         <PricingDetail planCategory="Free Plan" planPrice="$0" timeSpan={timePeriod} featuresList={[
             'Access to selected free courses.','Limited course materials and resources.',
             'Basic community support.','No certification upon completion.','Ad-supported platform.',
-            'Access to exclusive Pro Plan community forums.','Early access to new courses and updates.'
+            'Access to exclusive Pro Plan community forums.'
         ]}/>
         <PricingDetail planCategory="Pro Plan" planPrice="$79" timeSpan={timePeriod} featuresList={[
             'Access to selected free courses.','Limited course materials and resources.',

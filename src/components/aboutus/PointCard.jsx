@@ -1,20 +1,19 @@
 import styles from './PointCard.module.css';
 
 
-function PointCard(){
+function PointCard(props){
     return (<div className={styles.container}>
         <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/Objects & Tools.png'}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + props.imgSrc}/>
             </div>
         </div>
         <div className={styles.textSection}>
             <h3 className={styles.headingText}>
-            Trusted by Thousands
+            {props.heading}
             </h3>
             <p className={styles.text}>
-            We have successfully served thousands of students, helping them 
-            unlock their potential and achieve their career goals.
+            {props.text}
             </p>
         </div>
     </div>);

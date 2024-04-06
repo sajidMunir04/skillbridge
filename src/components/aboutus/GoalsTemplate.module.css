@@ -11,7 +11,37 @@
 .content{
     height: 80%;
     display: flex;
+    margin-top: 4%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 700px){
+    .container
+    {
+        height: 1400px;
+        padding-bottom: 12%;
+    }
+
+    .sectionHeading{
+        height: 20%;
+    }
+
+    .content{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .infoPointsContainer{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .infoPoint{
+        width: 80%;
+    }
 }

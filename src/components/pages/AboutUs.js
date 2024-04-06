@@ -1,4 +1,5 @@
 import AchievementsTemplate from "../aboutus/AchievementsTemplate";
+import Banner from "../aboutus/Banner";
 import GoalsTemplate from "../aboutus/GoalsTemplate";
 import FooterSection from "../shared/FooterTemplate";
 import HeaderTemplate from "../shared/HeaderTemplate";
@@ -12,6 +13,7 @@ function AboutUs()
         knowledge needed to succeed in the ever-evolving digital landscape."/>
         <AchievementsTemplate/>
         <GoalsTemplate/>
+        <Banner/>
         <FooterSection/>
     </>);
 }
