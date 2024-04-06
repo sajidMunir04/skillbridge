@@ -3,16 +3,23 @@
     margin-top: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0% 8%;
+    height: 90px;
 }
 .navSection{
     width: 40%;
 }
 
+.enlargedColumn {
+    height: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .logoContainer{
-    width: 15%;
+    width: 10%;
 }
 
 nav {
@@ -30,9 +37,11 @@ nav {
 }
 
 .accountInteractionSection{
+    box-sizing: border-box;
     display: flex;
+    position: relative;
     width: 20%;
-    justify-content: end;
+    margin-left: 33%;
 }
 
 .navbarButton{
@@ -46,16 +55,23 @@ nav {
     }
 
     .navSection{
-        display: block;
+        position: absolute;
+        width: 100%;
+        background-color: aliceblue;
+        margin: auto;
+        z-index: 1;
+        height: 200px;
+        inset: 0 0 46% 0;
     }
 
     .accountInteractionSection{
-        width: 54%;
+        width: 80%;
     }
 
     nav {
+        height: 100%;
         flex-direction: column;
         position: relative;
-        margin-right: 0%;
+        justify-content: space-around;
     }
 }

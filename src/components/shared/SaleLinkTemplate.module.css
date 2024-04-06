@@ -1,15 +1,16 @@
 
-.sale-link{    
+.container{    
     width: 94%;
     height: 44px;
     background-color: #FF9500;
     box-sizing: content-box;
     margin: auto;
-    margin-top: 0.5%;
+    margin-top: 1%;
     display: flex;
+    border-radius: 8px;
 }
 
-.sale-link > a{
+.saleLink{
     display: block;
     width: max-content;
     height: 60%;

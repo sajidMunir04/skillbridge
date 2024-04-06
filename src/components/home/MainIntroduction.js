@@ -8,8 +8,14 @@ function MainIntroduction()
 {
     return (<div className={styles.container}>  
         <div className={styles.containerMain}>
-            <img src={process.env.PUBLIC_URL + '/images/Icon Container.png'}/>
-            <h1 className={styles.mainText}><span className={styles.orangeColoredText}>Unlock</span> Your Creative Potential</h1>
+            <div className={styles.abstractImageContainer}>
+                <img className={styles.abstractImage} 
+                src={process.env.PUBLIC_URL + '/images/Abstract Line 2.png'}/>
+            </div>
+            <div className={styles.mainContentContainer}>
+                <img className={styles.mainImage} src={process.env.PUBLIC_URL + '/images/Icon Container.png'}/>
+                <h1 className={styles.mainText}><span className={styles.orangeColoredText}>Unlock</span> Your Creative Potential</h1>
+            </div>
         </div>
         <h2 className={styles.subHeading}>with Online Design and Development Courses.</h2>
         <p className={styles.paragraph}>Learn from Industry Experts and Enhance Your Skills.</p>

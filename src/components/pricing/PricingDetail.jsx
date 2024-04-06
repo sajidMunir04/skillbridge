@@ -11,8 +11,11 @@ function PricingDetail(props)
         </div>
         <div className={styles.detailsContainer}>  
             <p className={styles.featureHeadingText}>Available Features</p>
-            <ul>{props.featuresList.map(function(item,index) {
-                return <li className={styles.features} key={item}>{item}</li>
+            <ul className={styles.featuresList}>{props.featuresList.map(function(item,index) {
+                return <li className={styles.features} key={item}>
+                    <div className={styles.featuresCheckBox}><p className={styles.checkboxText}>{props.availableFeature === true ? '\u2713' : '\u00D7'}</p></div>
+                    <div className={styles.featuresText}><p>{item}</p></div>
+                </li>
             })}
             </ul>
         </div>
