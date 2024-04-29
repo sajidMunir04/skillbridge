@@ -7,7 +7,7 @@ function Banner()
     return (<div className={styles.container}>
         <div className={styles.backgroundContainer}>
             <div className={styles.imageContainer}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/aboutus/shape-17.png'}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/aboutus/shape-17.png'} alt='an image'/>
             </div>
         </div>
         <div className={styles.contentContainer}>

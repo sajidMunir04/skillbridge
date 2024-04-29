@@ -22,8 +22,8 @@ function FAQElementQuestion(props)
                 <p>{props.questionText}</p>
             </div>
             <div className={styles.controlButtons}>
-                <img onClick={onAnswerOpenClicked} className={styles.answerOpenButton} src={process.env.PUBLIC_URL + 'Images/Button(3).png'}/>
-                {answerOpen && <img onClick={onAnswerCloseClicked} className={styles.answerCloseButton} src={process.env.PUBLIC_URL + 'Images/Button(2).png'}/>}
+                <img onClick={onAnswerOpenClicked} alt='an image' className={styles.answerOpenButton} src={process.env.PUBLIC_URL + 'Images/Button(3).png'}/>
+                {answerOpen && <img onClick={onAnswerCloseClicked} alt='an image' className={styles.answerCloseButton} src={process.env.PUBLIC_URL + 'Images/Button(2).png'}/>}
             </div>
         </div>
         {answerOpen && <div className={styles.answerContainer}>

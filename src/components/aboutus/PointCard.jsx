@@ -5,7 +5,7 @@ function PointCard(props){
     return (<div className={styles.container}>
         <div className={styles.imageSection}>
             <div className={styles.imageContainer}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + props.imgSrc}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + props.imgSrc} alt='an image'/>
             </div>
         </div>
         <div className={styles.textSection}>

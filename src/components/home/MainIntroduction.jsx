@@ -11,7 +11,7 @@ function MainIntroduction()
             <div className={styles.abstractImageContainer}>
             </div>
             <div className={styles.mainContentContainer}>
-                <img className={styles.mainImage} src={process.env.PUBLIC_URL + '/images/Icon Container.png'}/>
+                <img className={styles.mainImage} src={process.env.PUBLIC_URL + '/images/Icon Container.png'} alt='an image'/>
                 <h1 className={styles.mainText}><span className={styles.orangeColoredText}>Unlock</span> Your Creative Potential</h1>
             </div>
         </div>

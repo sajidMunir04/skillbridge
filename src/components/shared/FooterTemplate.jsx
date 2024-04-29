@@ -5,23 +5,23 @@ function FooterSection(){
     return(<div className={styles.container}>
         <div className={styles.brandInfoSection}>
             <div className={styles.brandLogo}>
-            <img src={process.env.PUBLIC_URL+'/images/Logo.png'}/>
+            <img alt='an image' src={process.env.PUBLIC_URL+'/images/Logo.png'}/>
             </div>
            <div className={styles.contactInfo}>
            <div className={styles.contactInfoImage}>
-            <img src={process.env.PUBLIC_URL+'/images/Subtract.png'}/>
+            <img alt='an image' src={process.env.PUBLIC_URL+'/images/Subtract.png'}/>
            </div>
-            <p className={styles.contactInfoText}>hello@skillbridge.com</p>
+            <p  className={styles.contactInfoText}>hello@skillbridge.com</p>
            </div>
            <div className={styles.contactInfo}>
            <div className={styles.contactInfoImage}>
-            <img src={process.env.PUBLIC_URL+'/images/Vector (Stroke).png'}/>
+            <img alt='an image' src={process.env.PUBLIC_URL+'/images/Vector (Stroke).png'}/>
            </div>    
             <p className={styles.contactInfoText}>+91 91813 23 2309</p>
            </div>
            <div className={styles.contactInfo}>
            <div className={styles.contactInfoImage}>
-            <img src={process.env.PUBLIC_URL+'/images/Subtract(1).png'}/>
+            <img alt='an image' src={process.env.PUBLIC_URL+'/images/Subtract(1).png'}/>
            </div>
             <p className={styles.contactInfoText}>Somewhere in the World</p>
            </div>
@@ -44,9 +44,9 @@ function FooterSection(){
         <div className={styles.socialProfilesSection}>
             <p className={styles.sectionHeading}>Social Profiles</p>
             <div className={styles.socialLinksContainer}>
-            <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(4).png'}/></a>
-            <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(6).png'}/></a>
-            <a href="#"><img src={process.env.PUBLIC_URL + '/images/Button(7).png'}/></a>
+            <a href="#"><img alt='an image' src={process.env.PUBLIC_URL + '/images/Button(4).png'}/></a>
+            <a href="#"><img alt='an image' src={process.env.PUBLIC_URL + '/images/Button(6).png'}/></a>
+            <a href="#"><img alt='an image' src={process.env.PUBLIC_URL + '/images/Button(7).png'}/></a>
             </div>
         </div>
     </div>);

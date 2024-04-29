@@ -15,13 +15,13 @@ function CourseCard(props)
         </div>
         <div className={styles.imagesContainer}>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
             </div>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
             </div>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'}/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
             </div>
         </div>
         <div>

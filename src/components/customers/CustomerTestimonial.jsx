@@ -11,7 +11,7 @@ function CustomerTestimonial(props)
         <div className={styles.authorDetails}>
             <div className={styles.authorProfile}>
                 <div className={styles.authorImageContainer}>
-                    <img className={styles.authorImage} src={process.env.PUBLIC_URL+props.customerImage}/>
+                    <img className={styles.authorImage} src={process.env.PUBLIC_URL+props.customerImage} alt='an image'/>
                 </div>
                 <p className={styles.authorName}>{props.customerName}</p>
             </div>

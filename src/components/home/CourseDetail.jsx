@@ -8,7 +8,7 @@ function CourseDetail(props)
 {
     return (<div className={styles.container}>
         <div className={styles.graphicSection}>
-            <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink}/>
+            <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='an image'/>
         </div>
         <div className={styles.textSection}>
             <div className={styles.subTextSection}>
