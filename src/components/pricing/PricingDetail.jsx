@@ -20,7 +20,7 @@ function PricingDetail(props)
             </ul>
         </div>
         <div className={styles.externalLink}>
-            <a className={styles.link} href="#">Get Started</a>
+            <a className={styles.link} href="/pricing">Get Started</a>
         </div>
     </div>);
 }
