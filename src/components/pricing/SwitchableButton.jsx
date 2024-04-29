@@ -17,8 +17,8 @@ function SwitchableButton(props)
     }
 
     return (<div className={styles.container}>
-        <p className={`${styles.button} ${index == 0 ? styles.selectButton : styles.unSelectedButton}`} onClick={toggleOne} href="#">{props.a}</p>
-        <p className={`${styles.button} ${index == 1 ? styles.selectButton : styles.unSelectedButton}`} onClick={toggleTwo} href="#">{props.b}</p>       
+        <p className={`${styles.button} ${index === 0 ? styles.selectButton : styles.unSelectedButton}`} onClick={toggleOne} href="#">{props.a}</p>
+        <p className={`${styles.button} ${index === 1 ? styles.selectButton : styles.unSelectedButton}`} onClick={toggleTwo} href="#">{props.b}</p>       
     </div>);
 }
 

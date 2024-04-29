@@ -1,7 +1,6 @@
 import DetailHeading from "../home/DetailHeading";
 import LayoutHeader from "../home/LayoutHeader";
 import styles from './CourseCard.module.css';
-import TemplateHeading from "../TemplateHeading";
 import CourseSpecificsInfoCard from "./CourseSpecificsInfoCard";
 import CourseTimelineInfoPoint from "./CourseTimelineInfoPoint";
 
@@ -15,13 +14,13 @@ function CourseCard(props)
         </div>
         <div className={styles.imagesContainer}>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='informational'/>
             </div>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='informational'/>
             </div>
             <div className={styles.imageParent}>
-                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='an image'/>
+                <img className={styles.image} src={process.env.PUBLIC_URL + '/images/course-detail-images/1.png'} alt='ainformational'/>
             </div>
         </div>
         <div>

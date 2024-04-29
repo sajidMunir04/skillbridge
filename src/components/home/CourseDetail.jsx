@@ -1,14 +1,12 @@
 import DetailDescription from "./DetailDescription";
 import DetailHeading from "./DetailHeading";
 import styles from "./CourseDetail.module.css";
-import ExternalLinkButton from "../buttons/ExternalLinkButton";
-
 
 function CourseDetail(props)
 {
     return (<div className={styles.container}>
         <div className={styles.graphicSection}>
-            <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='an image'/>
+            <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='informational'/>
         </div>
         <div className={styles.textSection}>
             <div className={styles.subTextSection}>
@@ -26,7 +24,7 @@ function CourseDetail(props)
             </div>
         </div>
         <div className={styles.externalLink}>
-            <a className={styles.link} href="#">Get It Now</a>
+            <a className={styles.link} href="/home">Get It Now</a>
         </div>
     </div>);
 }

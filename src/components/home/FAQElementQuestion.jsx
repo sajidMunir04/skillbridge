@@ -22,14 +22,14 @@ function FAQElementQuestion(props)
                 <p>{props.questionText}</p>
             </div>
             <div className={styles.controlButtons}>
-                <img onClick={onAnswerOpenClicked} alt='an image' className={styles.answerOpenButton} src={process.env.PUBLIC_URL + 'Images/Button(3).png'}/>
-                {answerOpen && <img onClick={onAnswerCloseClicked} alt='an image' className={styles.answerCloseButton} src={process.env.PUBLIC_URL + 'Images/Button(2).png'}/>}
+                <img onClick={onAnswerOpenClicked} alt='informational' className={styles.answerOpenButton} src={process.env.PUBLIC_URL + 'Images/Button(3).png'}/>
+                {answerOpen && <img onClick={onAnswerCloseClicked} alt='informational' className={styles.answerCloseButton} src={process.env.PUBLIC_URL + 'Images/Button(2).png'}/>}
             </div>
         </div>
         {answerOpen && <div className={styles.answerContainer}>
             <p>{props.answerText}</p>
             <div className={styles.externalLink}>
-                <a className={styles.link} href="#">{props.linkText}</a>
+                <a className={styles.link} href="/home">{props.linkText}</a>
                 <div className={styles.arrowContainer}>
                     <p>&#8594;</p>
                 </div>

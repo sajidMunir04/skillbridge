@@ -23,7 +23,7 @@ function HeaderTemplate()
     return (
         <div className={combinedClassNames}>
             <div className={styles.logoContainer}>
-                <a className={styles.navLink} href="#"><img alt='an image' src={process.env.PUBLIC_URL+'/images/Logo.png'}/></a>
+                <a className={styles.navLink} href="/home"><img alt='informational' src={process.env.PUBLIC_URL+'/images/Logo.png'}/></a>
             </div>
             {(!isMobile || barStatus) && <div className={styles.navSection}>
                 <nav>
@@ -39,7 +39,7 @@ function HeaderTemplate()
                 <ExternalLinkButtonColored buttonText="Login"/>
             </div>
             <div className={styles.navbarButton}>
-                <img alt='an image' onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/common/menuBtn.svg'}/>
+                <img alt='informational' onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/common/menuBtn.svg'}/>
             </div>
         </div>
     );

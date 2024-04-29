@@ -29,24 +29,24 @@ function FooterSection(){
         <div className={styles.linksContainer}>
         <div className={styles.homeLinksSection}>
             <p className={styles.sectionHeading}>Home</p>
-            <a className={styles.link} href="#">Benefits</a>
-            <a className={styles.link} href="#">Our Courses</a>
-            <a className={styles.link} href="#">Our Testimonials</a>
-            <a className={styles.link} href="#">Our FAQ</a>
+            <a className={styles.link} href="/home">Benefits</a>
+            <a className={styles.link} href="/home">Our Courses</a>
+            <a className={styles.link} href="/home">Our Testimonials</a>
+            <a className={styles.link} href="/home">Our FAQ</a>
         </div>
         <div className={styles.aboutusLinkSection}>
             <p className={styles.sectionHeading}>About Us</p>
-            <a className={styles.link} href="#">Company</a>
-            <a className={styles.link} href="#">Achievements</a>
-            <a className={styles.link} href="#">Our Goals</a>
+            <a className={styles.link} href="/home">Company</a>
+            <a className={styles.link} href="/home">Achievements</a>
+            <a className={styles.link} href="/home">Our Goals</a>
         </div>
         </div>
         <div className={styles.socialProfilesSection}>
             <p className={styles.sectionHeading}>Social Profiles</p>
             <div className={styles.socialLinksContainer}>
-            <a href="#"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(4).png'}/></a>
-            <a href="#"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(6).png'}/></a>
-            <a href="#"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(7).png'}/></a>
+            <a href="/home"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(4).png'}/></a>
+            <a href="/home"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(6).png'}/></a>
+            <a href="/home"><img alt='informational' src={process.env.PUBLIC_URL + '/images/Button(7).png'}/></a>
             </div>
         </div>
     </div>);

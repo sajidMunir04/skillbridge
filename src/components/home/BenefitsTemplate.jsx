@@ -1,7 +1,4 @@
 import BenefitDetail from "./BenefitDetail";
-import ExternalLinkButton from "../buttons/ExternalLinkButton";
-import TemplateDescription from "../TemplateDescription";
-import TemplateHeading from "../TemplateHeading";
 import styles from './BenefitsTemplate.module.css'
 import LayoutHeader from "./LayoutHeader";
 import { useMediaQuery } from 'react-responsive'
