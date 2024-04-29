@@ -2,8 +2,9 @@
     padding: 0% 8%;
     margin-top: 4%;
     width: 84%;
-    height: 700px;
+    height: max-content;
     display: grid;
+    margin-bottom: 6%;
 }
 
 .videoContainer,.videoButtons {
@@ -26,6 +27,10 @@
     display: flex;
     align-items: center ;
     justify-content: center;
+}
+
+.scaledButton{
+    transform: scale(2.5);
 }
 
 .videoplayButton{

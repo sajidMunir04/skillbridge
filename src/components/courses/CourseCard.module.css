@@ -6,6 +6,7 @@
     box-sizing: border-box;
     height: 870px;
     margin-top: 3%;
+    border-radius: 12px;
 }
 
 .imagesContainer{
@@ -56,5 +57,6 @@
 
     .infoPoint{
         width: 80%;
+        margin-bottom: 6%;
     }
 }

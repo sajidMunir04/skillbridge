@@ -5,12 +5,11 @@
     font-family: Be-Vietnam-Pro-SemiBold;
     color: white;
     font-size: 16px;
-    font-weight: 111;
     text-align: center;
     width: 46%;
     height: 90%;
     box-sizing: border-box;
-    padding: 5% 5%;
+    padding: 3% 5%;
     overflow: hidden;
     border-radius: 5px 5px;
 }

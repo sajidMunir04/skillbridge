@@ -2,10 +2,12 @@ import ContactPageForm from "../contact/ContactPageForm";
 import FooterSection from "../shared/FooterTemplate";
 import HeaderTemplate from "../shared/HeaderTemplate";
 import PageHeadingTemplate from "../shared/PageHeadingTemplate";
+import SaleLinkTemplate from "../shared/SaleLinkTemplate";
 
 function Contact()
 {
     return (<>
+    <SaleLinkTemplate/>
         <HeaderTemplate/>
         <PageHeadingTemplate heading="Contact Us" description="Welcome to SkillBridge's Pricing Plan page, where we offer two 
         comprehensive options to cater to your needs: Free and Pro. We believe in providing flexible and 

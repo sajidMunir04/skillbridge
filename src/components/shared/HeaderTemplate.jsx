@@ -39,7 +39,7 @@ function HeaderTemplate()
                 <ExternalLinkButtonColored buttonText="Login"/>
             </div>
             <div className={styles.navbarButton}>
-                <img onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/Vector (Stroke2).png'}/>
+                <img onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/common/menuBtn.svg'}/>
             </div>
         </div>
     );

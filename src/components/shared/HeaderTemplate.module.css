@@ -13,9 +13,7 @@
 }
 
 .enlargedColumn {
-    height: 300px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-bottom: 56%;
 }
 
 .logoContainer{
@@ -61,7 +59,7 @@ nav {
         margin: auto;
         z-index: 1;
         height: 200px;
-        inset: 0 0 46% 0;
+        inset: 0 0 48% 0;
     }
 
     .accountInteractionSection{

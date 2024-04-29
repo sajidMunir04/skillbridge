@@ -6,6 +6,7 @@ import FooterSection from "../shared/FooterTemplate";
 import HeaderTemplate from "../shared/HeaderTemplate";
 import PageHeadingTemplate from "../shared/PageHeadingTemplate";
 import styles from './Pricing.module.css';
+import SaleLinkTemplate from "../shared/SaleLinkTemplate";
 
 function Pricing(){
     const [timePeriod,setTimePeriod] = useState('month');
@@ -21,6 +22,7 @@ function Pricing(){
     }
 
     return(<>
+        <SaleLinkTemplate/>
         <HeaderTemplate/>
         <PageHeadingTemplate heading="Our Pricings" description="Welcome to SkillBridge's Pricing Plan page, where we offer 
         two comprehensive options to cater to your needs: Free and Pro. We believe in providing 

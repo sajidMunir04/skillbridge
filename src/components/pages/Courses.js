@@ -2,11 +2,13 @@ import CourseCard from "../courses/CourseCard";
 import FooterSection from "../shared/FooterTemplate";
 import HeaderTemplate from "../shared/HeaderTemplate";
 import PageHeadingTemplate from "../shared/PageHeadingTemplate";
+import SaleLinkTemplate from "../shared/SaleLinkTemplate";
 
 
 function Courses()
 {
     return (<>
+        <SaleLinkTemplate/>
         <HeaderTemplate/>
         <PageHeadingTemplate heading="Online Courses on Design and Development"
             description="Welcome to our online course page, where you can enhance your skills in design and development. 

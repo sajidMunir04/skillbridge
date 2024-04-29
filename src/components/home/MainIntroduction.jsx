@@ -9,8 +9,6 @@ function MainIntroduction()
     return (<div className={styles.container}>  
         <div className={styles.containerMain}>
             <div className={styles.abstractImageContainer}>
-                <img className={styles.abstractImage} 
-                src={process.env.PUBLIC_URL + '/images/Abstract Line 2.png'}/>
             </div>
             <div className={styles.mainContentContainer}>
                 <img className={styles.mainImage} src={process.env.PUBLIC_URL + '/images/Icon Container.png'}/>

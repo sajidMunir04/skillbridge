@@ -13,7 +13,7 @@ function BenefitDetail(props)
             <DetailDescription description={props.description}/>
         </div>
         <div className={styles.externalLink}>
-        <a className={styles.externalLinkImage} href={props.detailLink}><img src={process.env.PUBLIC_URL + '/images/Button(1).png'}/></a>
+            <a href={props.detailLink}><img className={styles.externalLinkImage} src={process.env.PUBLIC_URL + '/images/course-detail-images/curvedArrow.svg'}/></a>
         </div>
     </div>);
 }
