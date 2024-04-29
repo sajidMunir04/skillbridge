@@ -1,10 +1,5 @@
 import CourseDetail from "../home/CourseDetail";
-import DetailDescription from "../home/DetailDescription";
-import DetailHeading from "../home/DetailHeading";
-import ExternalLinkButton from "../buttons/ExternalLinkButton";
 import styles from './CoursesTemplate.module.css';
-import TemplateHeading from "../TemplateHeading";
-import TemplateDescription from "../TemplateDescription";
 import LayoutHeader from "../home/LayoutHeader";
 function CoursesTemplate()
 {

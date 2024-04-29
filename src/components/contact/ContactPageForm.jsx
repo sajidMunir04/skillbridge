@@ -40,7 +40,7 @@ function ContactPageForm()
         <div className={styles.contactInfoContainer}>
             <div className={styles.contactInfo}>
                 <div className={styles.contactInfoImageContainer}>
-                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='an image'/>
+                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='informational'/>
                 </div>
                 <div className={styles.contactInfoTextContainer}>
                     <p className={styles.contactInfoText}>support@skillbridge.com</p>
@@ -48,7 +48,7 @@ function ContactPageForm()
             </div>
             <div className={styles.contactInfo}>
                 <div className={styles.contactInfoImageContainer}>
-                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='an image'/>
+                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='informational'/>
                 </div>
                 <div className={styles.contactInfoTextContainer}>
                     <p className={styles.contactInfoText}>support@skillbridge.com</p>
@@ -56,7 +56,7 @@ function ContactPageForm()
             </div>
             <div className={styles.contactInfo}>
                 <div className={styles.contactInfoImageContainer}>
-                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='an image'/>
+                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='informational'/>
                 </div>
                 <div className={styles.contactInfoTextContainer}>
                     <p className={styles.contactInfoText}>support@skillbridge.com</p>
@@ -64,7 +64,7 @@ function ContactPageForm()
             </div>
             <div className={styles.contactInfo}>
                 <div className={styles.contactInfoImageContainer}>
-                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='an image'/>
+                    <img className={styles.contactInfoImage} src={process.env.PUBLIC_URL + '/images/contact/Icon(1).png'} alt='informational'/>
                 </div>
                 <div className={styles.contactInfoTextContainer}>
                     <p className={styles.contactInfoText}>support@skillbridge.com</p>

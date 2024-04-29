@@ -6,7 +6,7 @@ function ExternalLinkButtonColored(props)
 
     return (
         <>
-         <a className={styles.container}>{props.buttonText}</a>   
+         <a href='#' className={styles.container}>{props.buttonText}</a>   
         </>
     );
 }
