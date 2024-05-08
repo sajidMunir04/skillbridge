@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './VideoIntroduction.module.css';
 import classNames from 'classnames';
+import { motion } from "framer-motion"
 
 function VideoIntroduction()
 {
@@ -11,7 +12,7 @@ function VideoIntroduction()
         [styles.enlargedColumn]: isHovering,
       });
     return (
-        <div className={styles.container}>
+        <motion.div className={styles.container} initial={{rotateY: 90}} whileInView={{rotateY: 0}}>
             <div className={styles.videoContainer}>
                 <img className={styles.videoImg}  src={process.env.PUBLIC_URL+'/images/Container(2).png'} alt='informational'/>
             </div>
@@ -19,7 +20,7 @@ function VideoIntroduction()
             onMouseLeave={() => {setHoverState(false)}}>
                 <img className={combinedClassNames} src={process.env.PUBLIC_URL+'/images/Button.png'} alt='informational'/>
             </div>
-        </div>
+        </motion.div>
     );
 }
 

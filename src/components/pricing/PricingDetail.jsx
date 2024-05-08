@@ -1,8 +1,9 @@
 import styles from "./PricingDetail.module.css";
+import { motion } from "framer-motion";
 
 function PricingDetail(props)
 {
-    return (<div className={styles.container}>
+    return (<motion.div className={styles.container} initial={{scaleY : 0}} whileInView={{scaleY: 1}}>
         <div className={styles.planCategory}>
             <p>{props.planCategory}</p>
         </div>
@@ -22,7 +23,7 @@ function PricingDetail(props)
         <div className={styles.externalLink}>
             <a className={styles.link} href="/pricing">Get Started</a>
         </div>
-    </div>);
+    </motion.div>);
 }
 
 export default PricingDetail;

@@ -1,12 +1,11 @@
-
-
 import ExternalLinkButton from '../buttons/ExternalLinkButton';
 import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
-import styles from './MainIntroduction.module.css'
+import styles from './MainIntroduction.module.css';
+import { motion } from "framer-motion"
 
 function MainIntroduction()
 {
-    return (<div className={styles.container}>  
+    return (<motion.div className={styles.container} initial={{ y: 300}} animate={{y: 0}}>  
         <div className={styles.containerMain}>
             <div className={styles.abstractImageContainer}>
             </div>
@@ -21,7 +20,7 @@ function MainIntroduction()
             <ExternalLinkButtonColored buttonText="Explore Courses"/>
             <ExternalLinkButton bg="white" buttonText="View Pricing"/>
         </div>
-    </div>);
+    </motion.div>);
 }
 
 export default MainIntroduction;

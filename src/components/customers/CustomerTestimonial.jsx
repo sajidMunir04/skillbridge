@@ -1,10 +1,11 @@
 import ExternalLinkButton from "../buttons/ExternalLinkButton";
 import styles from "./CustomerTestimonial.module.css";
+import { motion } from "framer-motion";
 
 
 function CustomerTestimonial(props)
 {
-    return (<div className={styles.container}>
+    return (<motion.div className={styles.container} initial={{scaleY: 0}} whileInView={{scaleY: 1}}>
         <div className={styles.textContent}>
             <p>{props.reviewContent}</p>
         </div>
@@ -19,7 +20,7 @@ function CustomerTestimonial(props)
                 <ExternalLinkButton buttonText="Read Full Story"/>
             </div>
         </div>
-    </div>);
+    </motion.div>);
 }
 
 export default CustomerTestimonial;

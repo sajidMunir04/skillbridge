@@ -1,10 +1,11 @@
 import DetailDescription from "./DetailDescription";
 import DetailHeading from "./DetailHeading";
 import styles from "./CourseDetail.module.css";
+import { motion } from "framer-motion";
 
 function CourseDetail(props)
 {
-    return (<div className={styles.container}>
+    return (<motion.div className={styles.container} initial={{ y: 300}} whileInView={{y : 0}} onAnimationEnd={false}>
         <div className={styles.graphicSection}>
             <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='informational'/>
         </div>
@@ -26,7 +27,7 @@ function CourseDetail(props)
         <div className={styles.externalLink}>
             <a className={styles.link} href="/home">Get It Now</a>
         </div>
-    </div>);
+    </motion.div>);
 }
 
 export default CourseDetail;

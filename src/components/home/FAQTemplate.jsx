@@ -3,6 +3,7 @@ import FAQElement from "./FAQElementQuestion";
 import TemplateDescription from "../TemplateDescription";
 import TemplateHeading from "../TemplateHeading";
 import styles from "./FAQTemplate.module.css";
+import { motion } from "framer-motion";
 
 function FAQTemplate(){
     return (<div className={styles.container}>
@@ -14,7 +15,7 @@ function FAQTemplate(){
                 <ExternalLinkButton buttonText="See All FAQ's"/>
             </div>
         </div>
-        <div className={styles.containerRight}>
+        <motion.div className={styles.containerRight} initial={{scaleX: 0}} whileInView={{scaleX:1}}>
             <FAQElement questionText="Can I enroll in multiple courses at once?" answerText="Absolutely! You can enroll in multiple courses 
             simultaneously and access them at your convenience." linkText="Enrollment Process for Different Courses"/>
             <FAQElement questionText="What kind of support can I expect from instructors?" answerText="Absolutely! You can enroll in multiple courses 
@@ -25,7 +26,7 @@ function FAQTemplate(){
             simultaneously and access them at your convenience." linkText="Enrollment Process for Different Courses"/>
             <FAQElement questionText="Can I download the course materials for offline access?" answerText="Absolutely! You can enroll in multiple courses 
             simultaneously and access them at your convenience." linkText="Enrollment Process for Different Courses"/>
-        </div>
+        </motion.div>
     </div>);
 }
 

@@ -4,6 +4,7 @@ import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
 import styles from './HeaderTemplate.module.css';
 import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames';
+import { motion } from "framer-motion"
 
 function HeaderTemplate()
 {
@@ -20,8 +21,9 @@ function HeaderTemplate()
         [styles.container]: true,
         [styles.enlargedColumn]: isMobile && barStatus,
       });
+    
     return (
-        <div className={combinedClassNames}>
+        <motion.div className={combinedClassNames} initial={{x: 100}} animate={{ x : 0}}>
             <div className={styles.logoContainer}>
                 <a className={styles.navLink} href="/home"><img alt='informational' src={process.env.PUBLIC_URL+'/images/Logo.png'}/></a>
             </div>
@@ -41,7 +43,7 @@ function HeaderTemplate()
             <div className={styles.navbarButton}>
                 <img alt='informational' onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/common/menuBtn.svg'}/>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
