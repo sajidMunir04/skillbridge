@@ -4,10 +4,7 @@ import styles from './ExternalLinkButtonColored.module.css';
 function ExternalLinkButtonColored(props)
 {
 
-    return (
-        <>
-         <a href='/home' className={styles.container}>{props.buttonText}</a>   
-        </>
+    return (<a href={props.link} className={styles.container}>{props.buttonText}</a>   
     );
 }
 

@@ -1,5 +1,6 @@
 .link {
     display: inline-block;
+    text-decoration: none;
     font-family: Be-Vietnam-Pro-Regular;
     color: #1A1A1A;
     font-size: 16px;

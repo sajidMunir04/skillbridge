@@ -1,7 +1,7 @@
 .container{
     width: 84%;
     padding: 0% 8%;
-    height: 1000px;
+    height: max-content;
 }
 
 .sectionHeader{

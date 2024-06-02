@@ -1,25 +1,25 @@
 import { useState } from 'react';
 import ExternalLinkButton from '../buttons/ExternalLinkButton';
-import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
 import styles from './HeaderTemplate.module.css';
 import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
 
 function HeaderTemplate()
 {
     const isMobile = useMediaQuery({
-        query: '(max-width: 700px)'
+        query: '(max-width: 900px)'
       })
 
-    const [barStatus,setBarStatus] = useState(true);
+    const [barStatus,setBarStatus] = useState(false);
 
     function navBarToggle() {
         setBarStatus(!barStatus);
     }
     const combinedClassNames = classNames({
         [styles.container]: true,
-        [styles.enlargedColumn]: isMobile && barStatus,
+        [styles.enlargedColumn]: barStatus,
       });
     
     return (
@@ -37,8 +37,8 @@ function HeaderTemplate()
                 </nav>
             </div>}
             <div className={styles.accountInteractionSection}>
-                <ExternalLinkButton buttonText="Sign Up"/>
-                <ExternalLinkButtonColored buttonText="Login"/>
+                <ExternalLinkButton buttonText="Sign Up" link="/signup"/>
+                <ExternalLinkButtonColored buttonText="Login" link="/login"/>
             </div>
             <div className={styles.navbarButton}>
                 <img alt='informational' onClick={navBarToggle} src={process.env.PUBLIC_URL+'/images/common/menuBtn.svg'}/>

@@ -1,7 +1,7 @@
 import ExternalLinkButton from '../buttons/ExternalLinkButton';
-import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
 import styles from './MainIntroduction.module.css';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import ExternalLinkButtonColored from '../buttons/ExternalLinkButtonColored';
 
 function MainIntroduction()
 {

@@ -41,6 +41,7 @@ nav {
     position: relative;
     width: 20%;
     margin-left: 33%;
+    align-items: center;
 }
 
 .navbarButton{
@@ -48,7 +49,7 @@ nav {
     display: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     .navbarButton{
         display: block;
     }
@@ -56,11 +57,13 @@ nav {
     .navSection{
         position: absolute;
         width: 100%;
-        background-color: aliceblue;
+        background-color: #F1F1F3;
         margin: auto;
         z-index: 1;
         height: 200px;
-        inset: 0 0 48% 0;
+        top: 16%;
+        left: 0%;
+        right: 0%
     }
 
     .accountInteractionSection{

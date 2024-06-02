@@ -2,10 +2,14 @@ import DetailDescription from "./DetailDescription";
 import DetailHeading from "./DetailHeading";
 import styles from "./CourseDetail.module.css";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 function CourseDetail(props)
 {
-    return (<motion.div className={styles.container} initial={{ y: 300}} whileInView={{y : 0}} onAnimationEnd={false}>
+
+    const [isAnimated,setAnimatedState] = useState(false);
+
+    return (<motion.div className={styles.container} initial={ isAnimated ? {y: 300} : { y: 300}} whileInView={!isAnimated && {y : 0}} onViewportEnter={() => setAnimatedState(false)} onViewportLeave={() => setAnimatedState(true)}>
         <div className={styles.graphicSection}>
             <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='informational'/>
         </div>

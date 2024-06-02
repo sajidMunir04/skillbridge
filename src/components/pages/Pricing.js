@@ -22,7 +22,7 @@ function Pricing(){
     }
 
     return(<>
-        <SaleLinkTemplate/>
+        <SaleLinkTemplate linkText="Free Courses 🌟 Sale Ends Soon, Get It Now  &#8594;"/>
         <HeaderTemplate/>
         <PageHeadingTemplate heading="Our Pricings" description="Welcome to SkillBridge's Pricing Plan page, where we offer 
         two comprehensive options to cater to your needs: Free and Pro. We believe in providing 

@@ -59,11 +59,13 @@
     justify-content: start;
     width: 100%;
     height: 30%;
+    margin-top: 6%;
 }
 
 .messageSectionInput{
     margin-top: 3%;
     height: 70%;
+    appearance: textarea;
 }
 
 .contactInfoContainer{

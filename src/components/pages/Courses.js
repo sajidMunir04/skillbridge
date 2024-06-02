@@ -8,7 +8,7 @@ import SaleLinkTemplate from "../shared/SaleLinkTemplate";
 function Courses()
 {
     return (<>
-        <SaleLinkTemplate/>
+        <SaleLinkTemplate linkText="Free Courses 🌟 Sale Ends Soon, Get It Now  &#8594;"/>
         <HeaderTemplate/>
         <PageHeadingTemplate heading="Online Courses on Design and Development"
             description="Welcome to our online course page, where you can enhance your skills in design and development. 

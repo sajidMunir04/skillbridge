@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+
+.headingText{
+    font-family: Be-Vietnam-Pro-SemiBold;
+    font-weight: lighter;
+    font-size: 44px;
+    margin-bottom: 0%;
+    color: #262626;
+}
+
+.descriptionText{
+    font-family: Be-Vietnam-Pro-Regular;
+    font-size: 16px;
+    color: #4C4C4D;
+}

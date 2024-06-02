@@ -6,6 +6,8 @@ import AboutUs from './components/pages/AboutUs';
 import Courses from './components/pages/Courses';
 import Contact from './components/pages/Contact';
 import Pricing from './components/pages/Pricing';
+import Login from './components/pages/Login';
+import SignUp from './components/pages/SignUp';
 
 function App()
 {
@@ -17,6 +19,8 @@ function App()
                     <Route path="/courses" element={<Courses/>} />
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/pricing" element={<Pricing/>} />
+                    <Route path="/login" element={<Login/>} />
+                    <Route path="/signup" element={<SignUp/>} />
             </Routes>
         </Router>
       );
