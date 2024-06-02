@@ -16,7 +16,7 @@ export default function SignupForm() {
         </label>
         <FormButton buttonText="Sign Up"/>
         <div className={styles.forgotLinkContainer}>
-            <p>Already have an account? </p><a className={styles.link} href="#"> Login Here</a>
+            <p>Already have an account? </p><a className={styles.link} href="/signup"> Login Here</a>
         </div>
     </form>);
 }
