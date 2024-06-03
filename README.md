@@ -1,7 +1,5 @@
-This is a front-end of a online course selling website, and all main five pages work, which are:
+This is a complete front-end of an online course website. 
 
-1) home(root)
-2) aboutus
-3) courses
-4) pricing
-5) contact
+The project's goal was to showcase my strengths in Frontend development.
+
+It is developing using React, Javascript, HTML and CSS.
