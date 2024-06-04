@@ -2,7 +2,6 @@ import DetailDescription from "./DetailDescription";
 import DetailHeading from "./DetailHeading";
 import styles from "./CourseDetail.module.css";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
 function CourseDetail(props)
 {
