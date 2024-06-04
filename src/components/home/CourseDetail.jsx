@@ -6,9 +6,6 @@ import { useState } from "react";
 
 function CourseDetail(props)
 {
-
-    const [isAnimated,setAnimatedState] = useState(false);
-
     return (<motion.div className={styles.container}>
         <div className={styles.graphicSection}>
             <img className={styles.graphicSectionImage} src={process.env.PUBLIC_URL + props.imageLink} alt='informational'/>
