@@ -16,7 +16,7 @@
     width: 90%;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1100px){
     .containerDetails{
         display: flex;
         flex-direction: column;
@@ -25,8 +25,9 @@
     }
 
     .externalLinkContainer{
-        width: 70%;
+        width: 40%;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }

@@ -35,10 +35,10 @@
     width: 68%;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1100px){
     .container{
         margin-top: 4%;
-        height: 2200px;
+        height: max-content;
         justify-content: start;
     }
     .content{
